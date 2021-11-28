@@ -1,6 +1,5 @@
 
 // Preloader
-
 window.addEventListener('load', function(){
     document.querySelector('.preloader').classList.add('opacity-0');
     setTimeout(function(){
@@ -8,15 +7,13 @@ window.addEventListener('load', function(){
     }, 1000);
 });
 
-// iTyped 
-
+// iTyped
 window.ityped.init(document.querySelector('.iTyped'), {
-    strings: ["Python Developer", 'Data Scientist', 'Biomechanist','Leader'],
+    strings: ['Biomechanics', 'Movement Capture', "Python", 'Data Science', 'Research'],
     loop: true
 });
 
 // Portfolio Item Filter
-
 const filterContainer = document.querySelector('.portfolio-filter'),
     filterBtns = filterContainer.children,
     totalFilterBtn = filterBtns.length,
@@ -46,7 +43,6 @@ const filterContainer = document.querySelector('.portfolio-filter'),
     }
 
 // Portfolio Lighbox
-
 const lightbox = document.querySelector('.lightbox'),
     lightboxImg = lightbox.querySelector('.lightbox-img'),
     lightboxText = lightbox.querySelector('.caption-text'),
