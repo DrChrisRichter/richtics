@@ -1,570 +1,125 @@
-<!--https://jinnabalu.medium.com/godaddy-domain-with-github-pages-62aed906d4ef-->
 <!DOCTYPE html>
-<html lang="pt-br">
-
+<html lang="en" dir="ltr">
   <head>
+    <meta charset="utf-8" name="viewpoint" content="with=device-width, initial-scale=1.0">
     <title>richtics.com</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="css/style.css" type="text/css">
-    <link rel="stylesheet" class="alternate-style" title="pink" href="css/skins/green.css" type="text/css">
-    <link rel="stylesheet" href="css/styleSwitcher.css" type="text/css">
+    <link rel="stylesheet", href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/fontawesome.min.css">
   </head>
+  <body>
 
-  <body class = "dark">
+    <section class="header">
+      <nav>
+        <a href="index.html"><img src="images/logo.png" style="width:100px"></a>
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+              <li><a href="index.html">home</a></li>
+              <li><a href="services.html">services</a></li>
+              <li><a href="about.html">about</a></li>
+              <li><a href="contact.html">contact</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
 
-    <!-- Preloader -->
-    <div class="preloader">
-      <div class="loader">
+      <div class="text-box">
+        <h1>richtics consulting</h1>
+        <p>
+          richtics consulting seeks to bring ease and clearity into your
+          motion analysis pipelines.
+          <br>
+          with 15+ years experience of tackling questions around motion
+          recording, data processing, analysis and visualisation,
+          <br>
+          we are able to answer any clinical and reseach question.
+        </p>
+        <a href="contact.html"
+        class="hero-btn">contact us if you got question</a>
       </div>
-    </div>
-    <!-- Preloader End -->
 
-    <!-- Main Container -->
-    <div class="main-container">
+    </section>
 
-      <!-- Aside -->
-      <div class="aside">
-
-        <!-- Nav Toggler Btn -->
-        <div class="nav-toggler">
-          <span></span>
+    <!--- services --->
+    <section class="services">
+      <h1>services we offer</h1>
+      <p>
+        we offer multiple services around motion capture and morion analysis.
+        <br>
+        see below for a list of the services we offer.
+      </p>
+      <div class="row">
+        <div class="service-col">
+          <h3>Speaker</h3>
+          <p>
+            book us as speaker during an event. with > 50 conference
+            presentation and > 10 invited key notes you'll be able to enjoy
+            an insightful and entertaining lecture.
+          </p>
+          <a href="contact.html" class="hero-btn red-btn">tell me more.</a>
         </div>
-
-        <div class="aside-inner">
-
-          <!-- Logo -->
-          <div class="logo">
-            <a href="#">richtics</a>
-          </div>
-
-          <!-- Nav -->
-          <ul class="nav">
-            <li><a href="#home" class="active"><i class="fa fa-home"></i> Home</a></li>
-            <li><a href="#about"><i class="fa fa-user"></i> About</a></li>
-<!--            <li><a href="#services"><i class="fa fa-list"></i> Services</a></li>-->
-<!--            <li><a href="#portfolio"><i class="fa fa-briefcase"></i> Projects</a></li>-->
-<!--            <li><a href="#blog"><i class="fa fa-envelope"></i> Blog</a></li>-->
-            <li><a href="#contact"><i class="fa fa-comments"></i> Contact</a></li>
-          </ul>
-
-          <!-- Copyright -->
-          <div class="copyright-text">
-             richtics.com
-          </div>
-
+        <div class="service-col">
+          <h3>Performance Analysis</h3>
+          <p>
+            you want to get insight into perfromance issues of your athletes?
+            then you are right here! within the last 10 year we have perfromed
+            multiple collabrations (NBA & EPL) to help coaches to identify
+            movement deficits in their athletes.
+          </p>
+            <a href="contact.html" class="hero-btn red-btn">tell me more.</a>
         </div>
-
-      </div>
-      <!-- Aside End -->
-
-      <!-- Main Content -->
-      <div class="main-content">
-
-        <!-- Home Section -->
-        <section class="home section active" id="home">
-        <div class="container">
-          <div class="intro">
-            <img src="images/about.jpg" alt="profile" class="shadow-dark">
-            <h1>Chris Richter PhD</h1>
-            <span class="iTyped"></span>
-            <div class="social-links">
-              <a href="https://twitter.com/ChrisRichterPhD"><i class="fa fa-twitter"></i></a>
-              <a href="https://github.com/DrChrisRichter"><i class="fa fa-github"></i></a>
-              <a href="https://scholar.google.com/citations?user=tyHMfeQAAAAJ&hl=en">
-                <i class="fa fa-google-scholar"></i></a>
-              <a href="https://www.linkedin.com/in/dr-chris-richter-18b29a39/"><i class="fa fa-linkedin"></i></a>
-            </div>
-          </div>
+        <div class="service-col">
+          <h3>Injury Screening</h3>
+          <p>
+            you want to understand injury riskes within your athletes?
+            then you are right here! within the last 10 year we have perfromed
+            multiple collabrations (NBA & EPL) to help coaches to identify
+            movement deficits in their athletes.
+          </p>
+            <a href="contact.html" class="hero-btn red-btn">tell me more.</a>
         </div>
-      </section>
-        <!-- Home Section End -->
-
-        <!-- About Section -->
-        <section class="about section" id="about">
-
-          <div class="container">
-
-          <div class="row">
-            <div class="section-title padd-15">
-              <h2>About Me</h2>
-            </div>
-          </div>
-
-          <div class="row">
-
-            <div class="about-content padd-15">
-
-<!--              <div class="row">-->
-<!--                <div class="about-text padd-15">-->
-<!--                  <h3> I am Chris Richter and I am a </h3>-->
-<!--                  <span class="iTyped"></span>-->
-<!--                </div>-->
-<!--              </div>-->
-
-              <div class="row">
-
-                <div class="row">
-
-                  <div class="education padd-15">
-
-                    <h3 class="title">Education</h3>
-                    <div class="row">
-
-                      <div class="timeline-box padd-15">
-                        <div class="timeline shadow-dark">
-
-                          <!-- timeline Item -->
-                          <div class="timeline-item">
-                            <div class="circle-dot"></div>
-                            <h6 class="timeline-date"><i class="fa fa-calendar"></i> Oct. 2010 - Dec. 2013</h6>
-                            <h4 class="timeline-title">Ph.D. Biomechanics and Data Science</h4>
-                            <p class="timeline-text">Dublin City University, Dublin, Ireland.</p>
-                          </div>
-                          <!-- timeline Item End -->
-
-                          <!-- timeline Item -->
-                          <div class="timeline-item">
-                            <div class="circle-dot"></div>
-                            <h6 class="timeline-date"><i class="fa fa-calendar"></i> Oct. 2005 - Sep. 2010</h6>
-                            <h4 class="timeline-title">M.A. Sports Science and Sports-Engineering</h4>
-                            <p class="timeline-text">Chemnitz University of Technology, Chemnitz, Germany.</p>
-                          </div>
-                          <!-- timeline Item End -->
-
-                        </div>
-                      </div>
-                    </div>
-
-                  </div>
-
-                  <div class="experience padd-15">
-
-                    <h3 class="title">Experience</h3>
-
-                    <div class="row">
-
-                      <div class="timeline-box padd-15">
-
-                        <div class="timeline shadow-dark">
-
-                          <!-- Kaia -->
-                          <div class="timeline-item">
-
-                            <div class="circle-dot"></div>
-                            <h6 class="timeline-date"><i class="fa fa-calendar"></i> Mar. 2020 - present</h6>
-                            <h6 class="timeline-title">Senior Data Scientist</h6>
-                            <h6 class="timeline-text">Kaia Health Software GmbH</h6>
-                            <p class="timeline-text">At Kaia, I have developed a framework that defines Kaia's digital
-                              biomarker R&D pathway. To ensure the correctness of user insights, I have been heavily
-                              involved in data QA and have implemented improvements within our snowplow structure.
-                              I have been presenting Kaia at international conferences, I have been educating our
-                              marketing & sales team in respect to motion analysis and have helped to push our
-                              pose-estimation models into a 3d space.</p>
-
-                          </div>
-                          <!-- timeline Item End -->
-
-                          <!-- Yfood -->
-                          <div class="timeline-item">
-                            <div class="circle-dot"></div>
-                            <h6 class="timeline-date"><i class="fa fa-calendar"></i> Sep. 2020 - Feb. 2021</h6>
-                            <h6 class="timeline-title">Senior Innovation Scientist</h6>
-                            <h6 class="timeline-text">YFood</h6>
-                            <p class="timeline-text">To increase sales performance, I gathered and examined customer
-                              demographics and insights in to smart food. To improve customer targeting, I identified
-                              the gender distribution of our database and crawled online reviews and examined regional
-                              sales differences (\euro{}/resident) using dash, geopandas and public databases. To
-                              examine customer behaviour, I conducted surveys and personal interviews (+50) that I
-                              analysed using descriptive statistics and NLP. These insights impacted marketing
-                              strategies and our product innovation road map.</p>
-                          </div>
-                          <!-- timeline Item End -->
-
-                          <!-- SSC-->
-                          <div class="timeline-item">
-                            <div class="circle-dot"></div>
-                            <h6 class="timeline-date"><i class="fa fa-calendar"></i> Apr. 2015 - Oct. 2020</h6>
-                            <h6 class="timeline-title">Head of Data Analytics & Innovation</h6>
-                            <h6 class="timeline-text">Sports Surgery Clinic (SSC)</h6>
-                            <p class="timeline-text">To identify movement deficits of patients the SSC offered multiple
-                              biomechanical tests (line-manager) and performed various clinical research studies. I
-                              developed software tools to ensure a standardised reporting / data storage (SQL) and fast
-                              feedback (time savings 90%). To improve and promote our services, I was conducting /
-                              contributing / supervising studies using statistical analysis, data mining, classification
-                              and machine learning that resulted in an increase of professional athletes
-                              (e.g., premier league, Irish Rugby) treated in the SSC. As part of the senior management,
-                              I reviewed & implemented systems for the sports medicine department that enabled growth
-                              - from treating just a few hundred to 50,000 patients a year.</p>
-                          </div>
-                          <!-- timeline Item End -->
-
-                          <!-- postdoc -->
-                          <div class="timeline-item">
-                            <div class="circle-dot"></div>
-                            <h6 class="timeline-date"><i class="fa fa-calendar"></i> Jan. 2014 - Mar. 2015</h6>
-                            <h6 class="timeline-title">Postdoctoral Researcher</h6>
-                            <h6 class="timeline-text">Insight: Centre for Data Analytics Dublin City University</h6>
-                            <p class="timeline-text">I worked on projects that demonstrated the benefit of inertia
-                              sensors in a healthcare / sports environment. As part of an interdisciplinary team, I
-                              performed data captures, sensor validations, statistical analysis, classification and
-                              data mining. Further, I also supported the biomechanical data processing and analysis for
-                              the SSC, who was an industrial partner and founder of this position.</p>
-                          </div>
-                          <!-- timeline Item End -->
-
-
-                        </div>
-
-                      </div>
-
-                    </div>
-
-                  </div>
-
-                </div>
-
-              </div>
-
-            </div>
-
-          </div>
-
-        </div>
-
-        </section>
-        <!-- About Section End -->
-
-        <!-- Service Section -->
-        <section class="service section" id="services">
-          <div class="container">
-            <div class="row">
-              <div class="section-title padd-15">
-                <h2>Services</h2>
-              </div>
-            </div>
-            <div class="row">
-              <!-- Service item -->
-              <div class="service-item padd-15">
-                <div class="service-item-inner">
-                  <div class="icon"><i class="fa fa-laptop"></i></div>
-                  <h4>Web Design</h4>
-                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry Lorem Ipsum.</p>
-                </div>
-              </div>
-              <!-- Service item End -->
-              <!-- Service item -->
-              <div class="service-item padd-15">
-                <div class="service-item-inner">
-                  <div class="icon"><i class="fa fa-photo"></i></div>
-                  <h4>Photography</h4>
-                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry Lorem Ipsum.</p>
-                </div>
-              </div>
-              <!-- Service item End -->
-              <!-- Service item -->
-              <div class="service-item padd-15">
-                <div class="service-item-inner">
-                  <div class="icon"><i class="fa fa-code"></i></div>
-                  <h4>Web Development</h4>
-                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry Lorem Ipsum.</p>
-                </div>
-              </div>
-              <!-- Service item End -->
-              <!-- Service item -->
-              <div class="service-item padd-15">
-                <div class="service-item-inner">
-                  <div class="icon"><i class="fa fa-film"></i></div>
-                  <h4>Video Editing</h4>
-                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry Lorem Ipsum.</p>
-                </div>
-              </div>
-              <!-- Service item End -->
-              <!-- Service item -->
-              <div class="service-item padd-15">
-                <div class="service-item-inner">
-                  <div class="icon"><i class="fa fa-rocket"></i></div>
-                  <h4>Seo Optimization</h4>
-                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry Lorem Ipsum.</p>
-                </div>
-              </div>
-              <!-- Service Item End -->
-              <!-- Service Item -->
-              <div class="service-item padd-15">
-                <div class="service-item-inner">
-                  <div class="icon"><i class="fa fa-paint-brush"></i></div>
-                  <h4>Logo Design</h4>
-                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry Lorem Ipsum.</p>
-                </div>
-              </div>
-              <!-- Service item End -->
-            </div>
-          </div>
-        </section>
-        <!-- Service Section End -->
-
-        <!-- Portfolio Section -->
-        <section class="portfolio section" id="portfolio">
-          <div class="container">
-            <div class="row">
-              <div class="section-title padd-15">
-                <h2>Portfolio</h2>
-              </div>
-            </div>
-            <div class="row">
-              <div class="portfolio-filter padd-15">
-                <button type="button" class="active" data-filter="all">All</button>
-                <button type="button" data-filter="web-design">Web Design</button>
-                <button type="button" data-filter="photography">Photography</button>
-                <button type="button" data-filter="wordpress">Wordpress</button>
-              </div>
-            </div>
-            <div class="row">
-              <!-- Portfolio Item -->
-              <div class="portfolio-item padd-15" data-category="web-design">
-                <div class="portfolio-item-inner shadow-dark">
-                  <div class="portfolio-img">
-                    <img src="images/portfolio/1.jpg" alt="Web Design">
-                  </div>
-                  <div class="portfolio-info">
-                    <h4>Web Design</h4>
-                    <div class="icon">
-                      <i class="fa fa-search"></i>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <!-- Portfolio Item End -->
-              <!-- Portfolio Item -->
-              <div class="portfolio-item padd-15" data-category="photography">
-                <div class="portfolio-item-inner shadow-dark">
-                  <div class="portfolio-img">
-                    <img src="images/portfolio/2.jpg" alt="Photography">
-                  </div>
-                  <div class="portfolio-info">
-                    <h4>Photography</h4>
-                    <div class="icon">
-                      <i class="fa fa-search"></i>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <!-- Portfolio Item End -->
-              <!-- Portfolio Item -->
-              <div class="portfolio-item padd-15" data-category="wordpress">
-                <div class="portfolio-item-inner shadow-dark">
-                  <div class="portfolio-img">
-                    <img src="images/portfolio/3.jpg" alt="Wordpress">
-                  </div>
-                  <div class="portfolio-info">
-                    <h4>Wordpress</h4>
-                    <div class="icon">
-                      <i class="fa fa-search"></i>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <!-- Portfolio Item End -->
-              <!-- Portfolio Item -->
-              <div class="portfolio-item padd-15" data-category="web-design">
-                <div class="portfolio-item-inner shadow-dark">
-                  <div class="portfolio-img">
-                    <img src="images/portfolio/4.jpg" alt="portfolio">
-                  </div>
-                  <div class="portfolio-info">
-                    <h4>Web Design</h4>
-                    <div class="icon">
-                      <i class="fa fa-search"></i>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <!-- Portfolio Item End -->
-              <!-- Portfolio Item -->
-              <div class="portfolio-item padd-15" data-category="wordpress">
-                <div class="portfolio-item-inner shadow-dark">
-                  <div class="portfolio-img">
-                    <img src="images/portfolio/5.jpg" alt="Wordpress">
-                  </div>
-                  <div class="portfolio-info">
-                    <h4>Wordpress</h4>
-                    <div class="icon">
-                      <i class="fa fa-search"></i>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <!-- Portfolio Item End -->
-              <!-- Portfolio Item -->
-              <div class="portfolio-item padd-15" data-category="photography">
-                <div class="portfolio-item-inner shadow-dark">
-                  <div class="portfolio-img">
-                    <img src="images/portfolio/6.jpg" alt="Wordpress">
-                  </div>
-                  <div class="portfolio-info">
-                    <h4>Photography</h4>
-                    <div class="icon">
-                      <i class="fa fa-search"></i>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <!-- Portfolio Item End -->
-            </div>
-          </div>
-        </section>
-        <!-- Portfolio Section End -->
-
-        <!-- Blog Section -->
-        <section class="blog section" id="blog">
-          <div class="container">
-            <div class="row">
-              <div class="section-title padd-15">
-                <h2>Latest Blog</h2>
-              </div>
-            </div>
-            <div class="row">
-              <!-- Blog Item -->
-              <div class="blog-item padd-15">
-                <div class="blog-item-inner shadow-dark">
-                  <div class="blog-img">
-                    <img src="images/blog/1.jpg" alt="">
-                    <div class="blog-date">
-                      4 jun 2020
-                    </div>
-                  </div>
-                  <div class="blog-info">
-                    <h4 class="blog-title">Responsive Web Design</h4>
-                    <p class="blog-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore, porro rem quod illo
-                      quam, eum alias id, repellendus magni, quas.</p>
-                    <p class="blog-tags">Tags : <a href="#">Html</a> , <a href="#">css</a></p>
-                  </div>
-                </div>
-              </div>
-              <!-- Blog Item End -->
-              <!-- Blog Item -->
-              <div class="blog-item padd-15">
-                <div class="blog-item-inner shadow-dark">
-                  <div class="blog-img">
-                    <img src="images/blog/2.jpg" alt="">
-                    <div class="blog-date">
-                      4 jun 2020
-                    </div>
-                  </div>
-                  <div class="blog-info">
-                    <h4 class="blog-title">Creative Slideshow</h4>
-                    <p class="blog-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore, porro rem quod illo
-                      quam, eum alias id, repellendus magni, quas.</p>
-                    <p class="blog-tags">Tags : <a href="#">Html</a> , <a href="#">Javascript</a></p>
-                  </div>
-                </div>
-              </div>
-              <!-- Blog Item End -->
-              <!-- Blog Item -->
-              <div class="blog-item padd-15">
-                <div class="blog-item-inner shadow-dark">
-                  <div class="blog-img">
-                    <img src="images/blog/3.jpg" alt="">
-                    <div class="blog-date">
-                      4 jun 2020
-                    </div>
-                  </div>
-                  <div class="blog-info">
-                    <h4 class="blog-title">Image Gallery Lightbox</h4>
-                    <p class="blog-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore, porro rem quod illo
-                      quam, eum alias id, repellendus magni, quas.</p>
-                    <p class="blog-tags">Tags : <a href="#">Javascript</a></p>
-                  </div>
-                </div>
-              </div>
-              <!-- Blog Item End -->
-            </div>
-          </div>
-        </section>
-        <!-- Blog Section End -->
-
-        <!-- Contact Section -->
-        <section class="contact section" id="contact">
-
-        <div class="container">
-
-          <div class="row">
-            <div class="section-title padd-15">
-              <h2>Contact Me</h2>
-            </div>
-          </div>
-
-          <!-- Contact Form -->
-          <div class="row">
-            <form action="#" class="contact-form padd-15">
-              <div class="row">
-                <div class="form-item col-6 padd-15">
-                  <div class="form-group">
-                    <input type="text" name="" class="form-control" placeholder="Name*">
-                  </div>
-                </div>
-                <div class="form-item col-6 padd-15">
-                  <div class="form-group">
-                    <input type="email" name="" class="form-control" placeholder="Email*">
-                  </div>
-                </div>
-              </div>
-              <div class="row">
-                <div class="form-item col-12 padd-15">
-                  <div class="form-group">
-                    <input type="text" name="" class="form-control" placeholder="Subject*">
-                  </div>
-                </div>
-              </div>
-              <div class="row">
-                <div class="form-item col-12 padd-15">
-                  <div class="form-group">
-                    <textarea class="form-control" name="" placeholder="Your Message..."></textarea>
-                  </div>
-                </div>
-              </div>
-              <div class="row">
-                <div class="col-12 padd-15">
-                  <button type="submit" class="btn">Send Message</button>
-                </div>
-              </div>
-            </form>
-          </div>
-          <!-- Contact Form End -->
-
-        </div>
-
-      </section>
-        <!-- Contact Section End -->
-
-      </div>
-      <!-- Main Content End -->
-
-    </div>
-    <!-- Main Container End -->
-
-    <!-- Lightbox -->
-    <div class="lightbox">
-      <div class="lightbox-content">
-        <div class="lightbox-close">&times;</div>
-        <img src="" alt="" onclick="nextItem()" class="lightbox-img">
-        <div class="lightbox-caption">
-          <div class="caption-text"></div>
-          <div class="caption-counter"></div>
+        <div class="service-col">
+          <h3>Lab setup</h3>
+          <p>
+            you thinking about setting up a lab to examine movements?
+            then you are right here! We have been designing and equiting
+            multiple labs. no matter if you are interested in force plates,
+            IMUs or a full motion capture lab. we have worked with it.
+          </p>
+            <a href="contact.html" class="hero-btn red-btn">tell me more.</a>
         </div>
       </div>
-      <div class="lightbox-controls">
-        <div class="prev-item" onclick="prevItem()"><i class="fa fa-angle-left"></i></div>
-        <div class="next-item" onclick="nextItem()"><i class="fa fa-angle-right"></i></div>
-      </div>
-    </div>
-    <!-- Lightbox End -->
+    </section>
 
-    <!-- Plugins -->
-    <script src="js/ityped.min.js"></script>
-    <script src="js/script.js"></script>
-    <script src="js/styleSwitcher.js"></script>
+    <!--- footer --->
+    <section class="footer">
+      <h4>about us</h4>
+      <p>
+        richtics stands for rich(ter analy)tics and offers consulting services
+        <br>
+        in all aspects around motion capture, analysis, biomechancis as well as
+        educational services.
+      </p>
+    </section>
 
   </body>
+
+
+<!--- Java Script for toggle menu --->
+</script>
+<script type="text/javascript">
+
+  var navLinks = document.getElementById("navLinks")
+  function showMenu(){
+    navLinks.style.right = "0px"
+  }
+  function hideMenu(){
+    navLinks.style.right = "-200px"
+  }
+
+</script>
 
 </html>
