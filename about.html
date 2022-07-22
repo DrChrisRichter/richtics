@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" name="viewpoint" content="with=device-width, initial-scale=1.0">
+    <title>richtics.com</title>
+    <link rel="stylesheet", href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/fontawesome.min.css">
+  </head>
+  <body>
+
+    <section class="sub-header">
+      <nav>
+        <a href="index.html"><img src="images/logo.png" style="width:100px"></a>
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+              <li><a href="index.html">home</a></li>
+              <li><a href="services.html">services</a></li>
+              <li><a href="about.html">about</a></li>
+              <li><a href="contact.html">contact</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+      <h1>about richtics</h1>
+    </section>
+
+    <!--- content --->
+    <section class=about-us>
+      <table>
+        <tr>
+          <td>
+            <h1>bio</h1>
+            <p>
+              Dr Chris Richter is a biomechanist with extensive experience in data
+              science and technology. Chris has been capturing movement for more
+              than 10 years and has worked with any motion capture technology
+              available. Currently, he is working on developing and implementing
+              a biomarker R&D strategy to fully utilize Kaia’s computer vision
+              movement capture technology, which is used to guide remote
+              rehabilitation.
+              <br><br>
+              For the last 10 years, Chris has been involved in clinical and
+              research projects as Head of Data Analytics and Innovation at
+              the Sports Surgery Clinic in Dublin. During this time, Chris has
+              contributed to / published 60+ papers and has been acting as
+              reviewer for 15+ scientific journals. In addition to the scientific
+              work, Chris has also tackled many questions in respect to movement
+              analysis in professional sports for various NBA and Premier League
+              teams.
+            </p>
+          </td>
+          <td>
+            <img src="images/ChrisRichter.webp" alt="">
+          </td>
+        </tr>
+      </table>
+    </section>
+
+    <section class=about-me>
+      <div class="about-me-row">
+        <div class="about-me-col">
+          <h1>employment</h1>
+          <p>
+            chris  had been working in akademic, clinical and
+            professional environments as well as in business intelligence
+          </p>
+          <a href="" class="hero-btn red-btn">detailed list</a>
+        </div>
+        <div class="about-me-col">
+          <h1>publications</h1>
+          <p>
+            during his akademic, clinical and professional appointments, chris
+            has published / contributed to 60+ peer reviewed journal paper. He
+            is also serving as a reviewer for 15+ journals and has been presenting
+            his work all over the world.
+          </p>
+          <a href="" class="hero-btn red-btn">detailed list</a>
+        </div>
+      </div>
+    </section>
+
+    <!--- footer --->
+    <section class="footer">
+      <h4>about us</h4>
+      <p>
+        richtics stands for rich(ter analy)tics and offers consulting services
+        in all aspects around motion capture, analysis, biomechancis as well as
+        educational services.
+      </p>
+    </section>
+
+  </body>
+
+
+<!--- Java Script for toggle menu --->
+</script>
+<script type="text/javascript">
+
+  var navLinks = document.getElementById("navLinks")
+  function showMenu(){
+    navLinks.style.right = "0px"
+  }
+  function hideMenu(){
+    navLinks.style.right = "-200px"
+  }
+
+</script>
+
+</html>

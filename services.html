@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" name="viewpoint" content="with=device-width, initial-scale=1.0">
+    <title>richtics.com</title>
+    <link rel="stylesheet", href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/fontawesome.min.css">
+  </head>
+  <body>
+
+    <section class="sub-header">
+      <nav>
+        <a href="index.html"><img src="images/logo.png" style="width:100px"></a>
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+              <li><a href="index.html">home</a></li>
+              <li><a href="services.html">services</a></li>
+              <li><a href="about.html">about</a></li>
+              <li><a href="contact.html">contact</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+      <h1>services</h1>
+    </section>
+
+    <!--- services --->
+    <section class="services">
+      <h1>services we offer</h1>
+      <p>
+        we offer multiple services around motion capture and morion analysis.
+        <br>
+        see below for a list of the services we offer.
+      </p>
+      <div class="row">
+        <div class="service-col">
+          <h3>Speaker</h3>
+          <p>
+            book us as speaker during an event. with > 50 conference
+            presentation and > 10 invited key notes you'll be able to enjoy
+            an insightful and entertaining lecture.
+          </p>
+          <a href="contact.html" class="hero-btn red-btn">tell me more.</a>
+        </div>
+        <div class="service-col">
+          <h3>Performance Analysis</h3>
+          <p>
+            you want to get insight into perfromance issues of your athletes?
+            then you are right here! within the last 10 year we have perfromed
+            multiple collabrations (NBA & EPL) to help coaches to identify
+            movement deficits in their athletes.
+          </p>
+            <a href="contact.html" class="hero-btn red-btn">tell me more.</a>
+        </div>
+        <div class="service-col">
+          <h3>Injury Screening</h3>
+          <p>
+            you want to understand injury riskes within your athletes?
+            then you are right here! within the last 10 year we have perfromed
+            multiple collabrations (NBA & EPL) to help coaches to identify
+            movement deficits in their athletes.
+          </p>
+            <a href="contact.html" class="hero-btn red-btn">tell me more.</a>
+        </div>
+        <div class="service-col">
+          <h3>Lab setup</h3>
+          <p>
+            you thinking about setting up a lab to examine movements?
+            then you are right here! We have been designing and equiting
+            multiple labs. no matter if you are interested in force plates,
+            IMUs or a full motion capture lab. we have worked with it.
+          </p>
+            <a href="contact.html" class="hero-btn red-btn">tell me more.</a>
+        </div>
+      </div>
+    </section>
+
+    <!--- footer --->
+    <section class="footer">
+      <h4>about us</h4>
+      <p>
+        richtics stands for rich(ter analy)tics and offers consulting services
+        <br>
+        in all aspects around motion capture, analysis, biomechancis as well as
+        educational services.
+      </p>
+    </section>
+
+  </body>
+
+
+<!--- Java Script for toggle menu --->
+</script>
+<script type="text/javascript">
+
+  var navLinks = document.getElementById("navLinks")
+  function showMenu(){
+    navLinks.style.right = "0px"
+  }
+  function hideMenu(){
+    navLinks.style.right = "-200px"
+  }
+
+</script>
+
+</html>
